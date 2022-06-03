@@ -22,7 +22,7 @@ cut00:00:52|00:03:10|Definição de cultura
 
 (após todos os cortes do vídeo, coloque um texto começando novamente com "test", que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo).
 
-Este scritp faz uso do programa ffmpeg e bash do linux. Para instalar, digite, antes de rodar o script.
+Este script faz uso do programa ffmpeg e o bash do linux. Para instalar, digite, antes de rodar o script.
 
 ````
 sudo apt update
