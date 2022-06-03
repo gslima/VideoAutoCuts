@@ -18,6 +18,7 @@ o tempo do corte começa em 00:00:52 e vai até 00:03:10 e tem o título "Defini
 o formato do arquivo videocuts.txt deve ser:
 
 testTerca-EP01
+
 cut00:00:52|00:03:10|Definição de cultura
 
 (coloque aqui todos os cortes do vídeo)
