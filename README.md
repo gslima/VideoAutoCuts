@@ -26,7 +26,8 @@ cut00:00:52|00:03:10|Definição de cultura
 (testNomeDoVideo)
 (cutTempoDeInício|TempoDeFim|NomeDoCorte)
 
-(após todos os cortes do vídeo, coloque um texto começando novamente com "test", que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo).
+(após todos os cortes do vídeo, coloque um texto começando novamente com "test",
+que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo).
 ~~~
 
 Este script faz uso do programa ffmpeg e o bash do linux. Para instalar, digite, antes de rodar o script.
