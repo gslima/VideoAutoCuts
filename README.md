@@ -15,15 +15,19 @@ e
 
 o tempo do corte começa em 00:00:52 e vai até 00:03:10 e tem o título "Definição de cultura",
 
-o formato do arquivo videocuts.txt deve ser:
+o formato do arquivo **videocuts.txt** deve ser:
 
+~~~
 testTerca-EP01
 
 cut00:00:52|00:03:10|Definição de cultura
 
 (coloque aqui todos os cortes do vídeo)
+(testNomeDoVideo)
+(cutTempoDeInício|TempoDeFim|NomeDoCorte)
 
 (após todos os cortes do vídeo, coloque um texto começando novamente com "test", que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo).
+~~~
 
 Este script faz uso do programa ffmpeg e o bash do linux. Para instalar, digite, antes de rodar o script.
 
