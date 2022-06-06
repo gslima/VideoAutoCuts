@@ -4,7 +4,7 @@
 (Short script to automate video cuts)
 
 
-Entre os tempos de corte e o nome do corte num arquivo videocuts.txt para ele cospir trechos de vídeos.
+Entre os tempos de corte e o nome do corte num arquivo videocuts.txt para ele cuspir trechos de vídeos.
 Coloque os arquivos de vídeo no mesmo diretório que você está rodando o script, além do arquivo contendo os dados dos cortes.
 
 Se:
