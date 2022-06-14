@@ -18,9 +18,12 @@ o tempo do corte começa em 00:00:52 e vai até 00:03:10 e tem o título "Defini
 o formato do arquivo **videocuts.txt** deve ser:
 
 ~~~
-testTerca-EP01
-
-cut00:00:52|00:03:10|Definição de cultura
+testTercaEP01
+cut00:00:52|00:03:10|Tópico 1
+cut00:03:10|00:13:10|Tópico 2
+testQuartEP02
+cut00:00:52|00:03:10|Tópico 3
+cut00:03:10|00:13:10|Tópico 4
 
 (coloque aqui todos os cortes do vídeo)
 (testNomeDoVideo)
@@ -40,5 +43,5 @@ sudo apt install ffmpeg
 Para rodar o script:
 
 ````
-bash gcutter.sh
+python3 gcutter.py
 ````
