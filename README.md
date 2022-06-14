@@ -13,9 +13,9 @@ o nome do arquivo de vídeo a ser cortado é "Terca-EP01".mp4, você entra uma l
 
 e
 
-o tempo do corte começa em 00:00:52 e vai até 00:03:10 e tem o título "Definição de cultura",
+o tempo do corte começa em 00:00:52 e vai até 00:03:10 e tem o título "Tópico 1",
 
-o formato do arquivo **videocuts.txt** deve ser:
+o formato do arquivo **videocuts.txt** deve ser (p.ex.):
 
 ~~~
 testTercaEP01
@@ -25,15 +25,17 @@ testQuartEP02
 cut00:00:52|00:03:10|Tópico 3
 cut00:03:10|00:13:10|Tópico 4
 
-(coloque aqui todos os cortes do vídeo)
-(testNomeDoVideo)
-(cutTempoDeInício|TempoDeFim|NomeDoCorte)
-
-(após todos os cortes do vídeo, coloque um texto começando novamente com "test",
-que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo).
 ~~~
 
-Este script faz uso do programa ffmpeg e o python do linux. Para instalar, digite, antes de rodar o script.
+Coloque no **"videocuts.txt"** todos os cortes do vídeo. Após todos os cortes do vídeo, coloque um texto começando novamente com "test",
+que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo.
+
+~~~
+(testNomeDoVideo)
+(cutTempoDeInício|TempoDeFim|NomeDoCorte)
+~~~
+
+Este script faz uso do programa ffmpeg e o python do Linux. Para instalar, digite, antes de rodar o script.
 
 ````
 sudo apt update
