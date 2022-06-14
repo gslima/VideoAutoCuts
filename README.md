@@ -33,7 +33,7 @@ cut00:03:10|00:13:10|Tópico 4
 que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo).
 ~~~
 
-Este script faz uso do programa ffmpeg e o bash do linux. Para instalar, digite, antes de rodar o script.
+Este script faz uso do programa ffmpeg e o python do linux. Para instalar, digite, antes de rodar o script.
 
 ````
 sudo apt update
