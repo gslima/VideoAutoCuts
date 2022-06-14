@@ -31,8 +31,8 @@ Coloque no **"videocuts.txt"** todos os cortes do vídeo. Após todos os cortes 
 que ele automaticamente irá gerar cortes a partir de outro arquivo de vídeo.
 
 ~~~
-(testNomeDoVideo)
-(cutTempoDeInício|TempoDeFim|NomeDoCorte)
+testNomeDoVideo
+cutTempoDeInício|TempoDeFim|NomeDoCorte
 ~~~
 
 Este script faz uso do programa ffmpeg e o python do Linux. Para instalar, digite, antes de rodar o script.
